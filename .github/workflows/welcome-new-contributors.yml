@@ -13,7 +13,7 @@ permissions:
 jobs:
   welcome-message:
     name: Welcoming New Users
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     timeout-minutes: 10
     if: github.event.action == 'opened'
     steps:
